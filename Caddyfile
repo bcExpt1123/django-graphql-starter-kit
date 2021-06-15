@@ -1,0 +1,15 @@
+:80 {
+    @frontend {
+        path /
+        path /index.css
+        path /index.js
+        path /index.js.map
+        path /out/*
+    }
+    route @frontend {
+        uri strip_prefix /out
+        root * out
+        file_server
+    }
+    reverse_proxy localhost:3030
+}

@@ -1,0 +1,5 @@
+.direnv
+__pycache__
+out
+node_modules
+.envrc.secret

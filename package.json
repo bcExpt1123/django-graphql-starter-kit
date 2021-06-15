@@ -1,0 +1,20 @@
+{
+    "name": "@BFC_APP_DOMAIN@",
+    "version": "0.0.1",
+    "scripts": {
+      "build": "esbuild frontend/index.tsx --bundle --sourcemap --outdir=out"
+    },
+    "dependencies": {
+      "@apollo/client": "^3.3.19",
+      "esbuild": "^0.12.3",
+      "graphql": "^15.5.0",
+      "normalize.css": "^8.0.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+      "@types/react": "^17.0.8",
+      "@types/react-dom": "^17.0.5"
+    }
+  }
+  

@@ -1,4 +1,8 @@
 {
     "private": true,
-    "jobs": []
+    "jobs": [],
+    "ideFeatures": {
+        "djangoShell": true,
+        "djangoAdmin": true
+    }
 }

@@ -11,4 +11,4 @@ ADD Caddyfile /etc/caddy/Caddyfile
 COPY . /app
 WORKDIR /app
 
-CMD ["biginit", "caddy", "gunicorn @BFC_PYTHON_IDENTIFIER@.wsgi -b localhost:3030"]
+CMD ["biginit", "caddy", "gunicorn base.wsgi -b localhost:3030"]
